@@ -6,7 +6,18 @@
 
     <groupId>org.tl</groupId>
     <artifactId>gitflow-simple</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-dependencies-SNAPSHOT</version>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.12</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
