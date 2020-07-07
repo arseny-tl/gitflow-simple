@@ -7,6 +7,7 @@
     <groupId>org.tl</groupId>
     <artifactId>gitflow-simple</artifactId>
     <version>1.0.3</version>
+    <name>Gitflow Simple Pet Project</name>
 
     <dependencyManagement>
         <dependencies>
